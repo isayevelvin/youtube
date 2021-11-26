@@ -1,0 +1,43 @@
+.container{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+*{
+    box-sizing: border-box;
+}
+.slide{
+    width: 600px;
+    position: relative;
+
+}
+.slide img{
+    width: 600px;
+    max-width: 100%;
+}
+.slide p{
+    background-color: rgb(212 207 207 / 77%);
+    padding: 10px;
+    font-size: 20px;
+    position: absolute;
+    left: 0px;
+    bottom: 3px;
+    width: 100%;
+    
+
+}
+.slide .time{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border: 1px solid rgb(99, 99, 177);
+    background-color: rgb(99, 99, 177);
+    padding: 10px;
+}
+.slide .watch{
+    position: absolute;
+    top: 65px;
+    left: 10px;
+    border: 1px solid rgb(106, 69, 139);
+    background-color: rgb(106, 69, 139);
+    padding: 2px 7px;
+}
